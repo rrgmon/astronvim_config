@@ -9,7 +9,7 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
-   lsp = {
+  lsp = {
     setup_handlers = {
       -- add custom handler
       jdtls = function(_, opts)
@@ -82,7 +82,5 @@ return {
         ensure_installed = { "jdtls" },
       },
     },
-    "AstroNvim/astrocommunity",
-    { import = "astrocommunity.colorscheme.catppuccin" },
   },
 }
